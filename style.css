@@ -1,43 +1,55 @@
 .body {
     background-image: url(background.jpg);
-    align-content: center;
-    color: rgba(255, 255, 255, 0.112);
-}
-
-.container img {
-    align-content: flex-start;
-    justify-content: center;
     background-size: cover;
-    margin-right: 30px;
-    margin: inline start 20px;
-    width: 100px;
-    background-color: rgba(240, 248, 255, 0.04);
-    border-radius: 20px;
-    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
 }
 
 .container {
     background-image: url(background.jpg);
-    background-size: cover;
-    align-content: center;
+    background-repeat: repeat;
     justify-content: center;
-    color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    align-content: center;
+    background-color: black;
+    height: 300px;
+    position: relative;
 }
 
-.container span {
-    color: rgba(255, 0, 0, 0.7);
+.header {
+    background-color: rgba(240, 248, 255, 0.105);
+    background-size: 300px;
+    justify-content: center 500px;
+    align-content: center 200px;
+    left: 1500px;
+}
+
+.judul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
-    top: 50px;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    position: absolute 50px;
+
 }
 
-.container p {
-    font-size: 25px;
-    font-family: sans-serif;
-    display: flex;
+.judul span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: rgb(255, 0, 0, 0.7);
     align-content: center;
-    justify-content: left;
+    justify-content: center;
+    position: absolute 50px;
 
+}
+
+.subjudul {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    width: 1100px;
+    position: absolute 50px;
+    text-align: center 70%;
+    align-content: right;
+    justify-content: center;
+    height: 350px;
 }
