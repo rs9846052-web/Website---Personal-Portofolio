@@ -1,0 +1,8 @@
+npm install scrollreveal --save
+
+# First, fork the repository on GitHub
+
+# Then...
+git clone -b development "https://github.com/YOUR-USERNAME/scrollreveal.git"
+cd scrollreveal
+git checkout -b "your-new-branch-name"
