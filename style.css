@@ -1,121 +1,55 @@
-.background {
+.body {
     background-image: url(background.jpg);
-    background-repeat: repeat-y;
     background-size: cover;
-    width: 1500px;
-}
-
-.background {
-    background-image: url(background.jpg);
-    background-size: 100%;
-}
-
-.content {
-    text-align: right ;
-    margin-right: 15%;
-    font-size: 500%;
-    color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.content span {
-    color: rgb(255, 0, 0, 0.7);
+    background-repeat: no-repeat;
 }
 
 .container {
-    border: 100px;
-    border-color: aliceblue;
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    height: 300px;
+    position: relative;
 }
 
 .header {
-    align-content: center;  
-    justify-content: center;
-    margin: 50px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
+    background-color: rgba(240, 248, 255, 0.105);
+    background-size: 300px;
+    justify-content: center 500px;
+    align-content: center 200px;
+    left: 1500px;
 }
 
-.Bagian {
+.judul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    position: absolute 50px;
+
+}
+
+.judul span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: rgb(255, 0, 0, 0.7);
+    align-content: center;
+    justify-content: center;
+    position: absolute 50px;
+
+}
+
+.subjudul {
     font-family: sans-serif;
+    font-size: 30px;
     color: aliceblue;
-    margin-right: 3%;
-    font-size: 250%;
-}
-
-.header-1 {
-    align-content: center;  
+    width: 1100px;
+    position: absolute 50px;
+    text-align: center 70%;
+    align-content: left;
     justify-content: center;
-    margin: 140px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
-}
-
-.Bagian-1 {
-    font-family: sans-serif;
-    color: aliceblue;
-    margin-left: 70%;
-    font-size: 250%;
-}
-
-.header-2 {
-    align-content: center;  
-    justify-content: center;
-    margin: 50px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
-}
-
-.header-3 {
-    align-content: center;  
-    justify-content: center;
-    margin: 140px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
-}
-
-.header-4 {
-    align-content: center;  
-    justify-content: center;
-    margin: 50px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
-}
-
-.header-5 {
-    align-content: center;  
-    justify-content: center;
-    margin: 140px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
-}
-
-.Bagian-2 {
-    font-family: sans-serif;
-    color: aliceblue;
-    margin-inline-end: 5%;
-    font-size: 250%;
-}
-
-.header-6 {
-    align-content: center;  
-    justify-content: center;
-    margin: 50px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
-}
-
-.header-7 {
-    align-content: center;  
-    justify-content: center;
-    margin: 140px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
-}
-
-.header-8 {
-    align-content: center;  
-    justify-content: center;
-    margin: 50px;
-    float: center;
-    background-color: rgba(240, 248, 255, 0.073);
+    height: 350px;
 }
